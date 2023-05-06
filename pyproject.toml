@@ -12,6 +12,7 @@ python = "^3.11"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.3.0"
+aws-cdk-lib = "^2.78.0"
 
 [build-system]
 requires = ["poetry-core"]
