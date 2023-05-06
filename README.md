@@ -2,8 +2,7 @@
 
 ## Prerequisite
 ```
-$ cdk --version                                                                                                                                                             [13:25:26]
-2.78.0 (build 8e95c37)
+$ cdk --version
 ```
 
 ## Environmental setup
