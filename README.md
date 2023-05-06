@@ -5,11 +5,9 @@
 $ cdk --version
 ```
 
-## Environmental setup
+## Local test
 ```
-cd app
-source .venv/bin/activate
-pip install -r requirements.txt
+sam build && sam local start-api
 ```
 
 ## References
