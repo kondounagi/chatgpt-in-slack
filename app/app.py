@@ -3,11 +3,11 @@ import os
 
 import aws_cdk as cdk
 
-from api.api_stack import ApiStack
+from app.app_stack import AppStack
 
 
 app = cdk.App()
-ApiStack(app, "ApiStack",
+AppStack(app, "AppStack",
     # If you don't specify 'env', this stack will be environment-agnostic.
     # Account/Region-dependent features and context lookups will not work,
     # but a single synthesized template can be deployed anywhere.
